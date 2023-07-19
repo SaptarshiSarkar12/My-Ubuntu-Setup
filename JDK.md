@@ -2,6 +2,7 @@
 Run the below commands :
 - Download .deb file and install it
 - Run the below commands in your terminal
+    > **NOTE** : Please change **jdk-20** to **"jdk-[your-java-version]"** before running these commands.
     ```bash
     sudo update-alternatives --install /usr/bin/jar jar /usr/lib/jvm/jdk-20/bin/jar 2000
     sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk-20/bin/javac 2000
@@ -33,4 +34,4 @@ Run the below commands :
     sudo update-alternatives --install /usr/bin/jstat jstat /usr/lib/jvm/jdk-20/bin/jstat 2000
     sudo update-alternatives --install /usr/bin/keytool keytool /usr/lib/jvm/jdk-20/bin/keytool 2000
     ```
-
+- Done :tada:!
