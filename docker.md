@@ -24,6 +24,9 @@ Perform the following actions
     ```
 - Done :tada:! Happy Dockering!
 
+## Configuring password store for linux users
+Read here - https://docs.docker.com/desktop/get-started/#credentials-management-for-linux-users
+
 ## Upgrade Docker Desktop
 ```bash
 sudo apt-get install ./docker-desktop-<version>-<arch>.deb
