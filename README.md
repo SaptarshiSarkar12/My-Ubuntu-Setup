@@ -30,3 +30,9 @@ This repository contains all the list of the software that I need and download w
     ```bash
     sudo apt install git
     ```
+- GNOME Shell Extension
+    ```bash
+    sudo apt install gnome-shell-extensions
+    ```
+## GNOME Shell Extensions
+- [Vitals](https://extensions.gnome.org/extension/1460/vitals/)
