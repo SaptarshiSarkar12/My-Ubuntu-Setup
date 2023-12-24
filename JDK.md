@@ -34,4 +34,17 @@ Run the below commands :
     sudo update-alternatives --install /usr/bin/jstat jstat /usr/lib/jvm/jdk-20/bin/jstat 2000
     sudo update-alternatives --install /usr/bin/keytool keytool /usr/lib/jvm/jdk-20/bin/keytool 2000
     ```
+- Change Java executable priority
+    ```bash
+    cd /usr/lib/jvm/jdk-20/bin
+    for i in $(ls)        
+    do
+        # Check if the file is an executable
+        if [ -x $i ]
+        then
+            # Update the config of the executable
+            sudo update-alternatives --config $i
+        fi
+    done
+    ```
 - Done :tada:!
